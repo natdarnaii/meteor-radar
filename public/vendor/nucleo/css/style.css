@@ -1,0 +1,410 @@
+@font-face {
+    font-family: nucleo;
+    src: url(../fonts/nucleo.eot);
+    src: url(../fonts/nucleod41d.eot?#iefix) format("embedded-opentype"), url(../fonts/nucleo.ttf) format("truetype"), url(../fonts/nucleo.woff) format("woff"), url(../fonts/nucleo.svg#nucleo) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+.ya {
+    display: inline-block;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1;
+    font-family: nucleo;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.ya-alert::before {
+    content: "\E001"
+}
+
+.ya-attachment::before {
+    content: "\E002"
+}
+
+.ya-bar::before {
+    content: "\E003"
+}
+
+.ya-bell::before {
+    content: "\E004"
+}
+
+.ya-blocks::before {
+    content: "\E005"
+}
+
+.ya-bold-down::before {
+    content: "\E006"
+}
+
+.ya-bold-left::before {
+    content: "\E007"
+}
+
+.ya-bold-right::before {
+    content: "\E008"
+}
+
+.ya-bold-up::before {
+    content: "\E009"
+}
+
+.ya-bulb::before {
+    content: "\E00A"
+}
+
+.ya-calendar::before {
+    content: "\E00B"
+}
+
+.ya-camera::before {
+    content: "\E00C"
+}
+
+.ya-caret-down::before {
+    content: "\E00D"
+}
+
+.ya-cash::before {
+    content: "\E00E"
+}
+
+.ya-check-circle::before {
+    content: "\E00F"
+}
+
+.ya-check::before {
+    content: "\E010"
+}
+
+.ya-clock::before {
+    content: "\E011"
+}
+
+.ya-code::before {
+    content: "\E012"
+}
+
+.ya-comment::before {
+    content: "\E013"
+}
+
+.ya-comments::before {
+    content: "\E014"
+}
+
+.ya-content::before {
+    content: "\E015"
+}
+
+.ya-credit-card::before {
+    content: "\E016"
+}
+
+.ya-delivery::before {
+    content: "\E017"
+}
+
+.ya-discord::before {
+    content: "\E018"
+}
+
+.ya-download::before {
+    content: "\E019"
+}
+
+.ya-edit::before {
+    content: "\E01A"
+}
+
+.ya-email::before {
+    content: "\E01B"
+}
+
+.ya-eye-closed::before {
+    content: "\E01C"
+}
+
+.ya-eye::before {
+    content: "\E01D"
+}
+
+.ya-facebook::before {
+    content: "\E01E"
+}
+
+.ya-flag::before {
+    content: "\E01F"
+}
+
+.ya-folder::before {
+    content: "\E020"
+}
+
+.ya-gear::before {
+    content: "\E021"
+}
+
+.ya-github::before {
+    content: "\E022"
+}
+
+.ya-heart-add::before {
+    content: "\E023"
+}
+
+.ya-heart-o::before {
+    content: "\E024"
+}
+
+.ya-heart::before {
+    content: "\E025"
+}
+
+.ya-helmet::before {
+    content: "\E026"
+}
+
+.ya-help-circle::before {
+    content: "\E027"
+}
+
+.ya-help::before {
+    content: "\E028"
+}
+
+.ya-hide::before {
+    content: "\E029"
+}
+
+.ya-image-add::before {
+    content: "\E02A"
+}
+
+.ya-image::before {
+    content: "\E02B"
+}
+
+.ya-instagram::before {
+    content: "\E02C"
+}
+
+.ya-like::before {
+    content: "\E02D"
+}
+
+.ya-link::before {
+    content: "\E02E"
+}
+
+.ya-list::before {
+    content: "\E02F"
+}
+
+.ya-lock::before {
+    content: "\E030"
+}
+
+.ya-login::before {
+    content: "\E031"
+}
+
+.ya-logout::before {
+    content: "\E032"
+}
+
+.ya-mark::before {
+    content: "\E033"
+}
+
+.ya-menu::before {
+    content: "\E034"
+}
+
+.ya-message::before {
+    content: "\E035"
+}
+
+.ya-minus::before {
+    content: "\E036"
+}
+
+.ya-mouse::before {
+    content: "\E037"
+}
+
+.ya-note::before {
+    content: "\E038"
+}
+
+.ya-paypal::before {
+    content: "\E039"
+}
+
+.ya-pen-2::before {
+    content: "\E03A"
+}
+
+.ya-pen::before {
+    content: "\E03B"
+}
+
+.ya-photo::before {
+    content: "\E03C"
+}
+
+.ya-pin-add::before {
+    content: "\E03D"
+}
+
+.ya-pin::before {
+    content: "\E03E"
+}
+
+.ya-play::before {
+    content: "\E03F"
+}
+
+.ya-player::before {
+    content: "\E040"
+}
+
+.ya-plus::before {
+    content: "\E041"
+}
+
+.ya-print::before {
+    content: "\E042"
+}
+
+.ya-question::before {
+    content: "\E043"
+}
+
+.ya-random::before {
+    content: "\E044"
+}
+
+.ya-ranking::before {
+    content: "\E045"
+}
+
+.ya-refresh::before {
+    content: "\E046"
+}
+
+.ya-reply-all::before {
+    content: "\E047"
+}
+
+.ya-reply::before {
+    content: "\E048"
+}
+
+.ya-resize::before {
+    content: "\E049"
+}
+
+.ya-save::before {
+    content: "\E04A"
+}
+
+.ya-search::before {
+    content: "\E04B"
+}
+
+.ya-share::before {
+    content: "\E04C"
+}
+
+.ya-shopping-cart::before {
+    content: "\E04D"
+}
+
+.ya-small-left::before {
+    content: "\E04E"
+}
+
+.ya-small-right::before {
+    content: "\E04F"
+}
+
+.ya-star-add::before {
+    content: "\E050"
+}
+
+.ya-star-o::before {
+    content: "\E051"
+}
+
+.ya-star::before {
+    content: "\E052"
+}
+
+.ya-stock::before {
+    content: "\E053"
+}
+
+.ya-table::before {
+    content: "\E054"
+}
+
+.ya-tag::before {
+    content: "\E055"
+}
+
+.ya-time-alarm::before {
+    content: "\E056"
+}
+
+.ya-times-circle::before {
+    content: "\E057"
+}
+
+.ya-times::before {
+    content: "\E058"
+}
+
+.ya-trash::before {
+    content: "\E059"
+}
+
+.ya-twitch::before {
+    content: "\E05A"
+}
+
+.ya-twitter::before {
+    content: "\E05B"
+}
+
+.ya-unlock::before {
+    content: "\E05C"
+}
+
+.ya-user-add::before {
+    content: "\E05D"
+}
+
+.ya-user::before {
+    content: "\E05E"
+}
+
+.ya-users::before {
+    content: "\E05F"
+}
+
+.ya-video::before {
+    content: "\E060"
+}
+
+.ya-world::before {
+    content: "\E061"
+}
+
+.ya-youtube::before {
+    content: "\E062"
+}

@@ -1,0 +1,42 @@
+.footer img {
+    width: 40px;
+}
+
+.footer-main {
+    margin: 0;
+    font-size: 12px;
+    bottom: 0;
+    font-weight: 500;
+    color: white;
+}
+
+.footer-text {
+    font-size: 12px;
+    bottom: 0;
+    font-weight: 500;
+    color: white;
+    margin: -3px;
+}
+
+.footer-menubar {
+    padding: 0.5em;
+}
+
+.footer-list {
+    padding: 0.4em;
+}
+
+.footer {
+    background: #082842;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+    border-top: 1px solid #082842;
+}
+
+@media only screen and (min-width: 1025px) {
+    .footer {
+        display: none;
+    }
+}

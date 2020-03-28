@@ -1,0 +1,19 @@
+img.logo-login {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+/* Desktop */
+@media only screen and (min-width: 1025px) {
+
+    .login-form {
+        border-radius: 15px;
+    }
+
+    .admin-form {
+        padding: 5em 10em;
+    }
+
+}
